@@ -23,7 +23,7 @@ const input = {
 }
 
 var output = JSON.parse(solc.compile(JSON.stringify(input)))
-// console.log(JSON.parse(solc.compile(JSON.stringify(input))))
+
 module.exports = {
   abi: output.contracts['Lottery.sol'].Lottery.abi,
   bytecode: output.contracts['Lottery.sol'].Lottery.evm.bytecode.object,
