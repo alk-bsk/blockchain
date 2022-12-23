@@ -6,7 +6,8 @@
   "scripts": {
     "test": "mocha",
     "compile": "node ./ethereum/compile.js",
-    "deploy": "node ./ethereum/deploy.js"
+    "deploy": "node ./ethereum/deploy.js",
+    "dev": "next dev"
   },
   "author": "",
   "license": "ISC",
@@ -16,7 +17,7 @@
     "fs-extra": "^11.1.0",
     "ganache": "^7.7.2",
     "mocha": "^10.2.0",
-    "next": "^13.0.7",
+    "next": "^12.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "solc": "^0.8.17",
